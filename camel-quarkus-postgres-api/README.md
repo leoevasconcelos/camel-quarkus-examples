@@ -45,7 +45,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 * Deploy Camel Quarkus APP
   
   ```shell script
-  ./mvnw clean package -Dquarkus.kubernetes.deploy=true
+  ./mvnw clean package -Dquarkus.kubernetes.deploy=true -DskipTests
   ```
 
 ## Running the application in dev mode
