@@ -22,7 +22,7 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework. This is a pr
 * Deploy Camel Quarkus APP
   
   ```shell script
-  ./mvnw clean package -Dquarkus.kubernetes.deploy=true
+  ./mvnw clean package -Dquarkus.kubernetes.deploy=true -DskipTests
   ```
 
 ## Running the application in dev mode
